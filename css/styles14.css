@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #212020, #ad0000);
+}
+
+.cartaz {
+  background: rgb(236, 236, 236);
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+.cartaz h1 {
+  color: lch(42.39% 82.81 41.47);
+  margin-bottom: 15px;
+}
+
+.cartaz .info {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cartaz .destaque {
+  background: #930202;
+  color: rgb(231, 231, 231);
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cartaz .descricao {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cartaz .rodape {
+  font-size: 14px;
+  color: #777;
+}
